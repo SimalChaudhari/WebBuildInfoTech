@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color{
+  color: #19274e !important;  
+}
+.p_color{
+  color: #4C5A67 !important;
+}
+.css-19r6kue-MuiContainer-root {
+  max-width: 1600px !important;
+}
+
+.animation_wrapper {
+  display: flex;z-index: -1;
+}
+.animation_wrapper_color {
+  color: #f28034;
+}
+/* CSS for the animation */
+.marquee {
+  display: flex;
+  animation: marqueeAnimation 10s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  white-space: pre;
+  font-style: normal;
+  color: #0084FE !important;
+  /* color: #fe0000 !important; */
+  background: rgba(36,144,239,.05);
+  border-left: 8px solid #0084FF;
+  flex-direction: row;
+}
+.css-aym9vq-MuiButtonBase-root-MuiTab-root {
+  color: #19274e !important;
+  white-space: pre !important;
+  flex-direction: row !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  font-weight: 700;
+  font-size: 17px;
+  border-color: #E9852A !important;
+  color: #192734 !important;
+  background: transparent;
+  text-transform: none;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  white-space: pre !important;
+  color: #4C5A67 !important;
+  text-transform: none !important;
+}
+.css-35zqo5-MuiTabs-root{
+  overflow: visible !important;
+}
+.css-lfwcke-MuiTabs-flexContainer {
+  align-items: flex-start;
+  width: auto;
+}
+
+.css-qs5rcs {
+  background: #f9f9ff !important;
+}
+.css-pibaln {
+  background: #f9f9ff !important;
+}
+.css-z4rqyd-MuiButton-endIcon>*:nth-of-type(1) {
+  font-size: 37px !important;
+}
+/* .css-1fderfv-MuiPaper-root-MuiAccordion-root:not(:last-child) {
+  background: #f9f9ff;
+} */
+.css-1fderfv-MuiPaper-root-MuiAccordion-root{
+/* background-color: #0084FF; */
+/* border: none !important; */
+color: #19274e !important;
+border-bottom: 1px solid #dfdfdf !important;
+border-top: none !important;
+border-left: none !important;
+border-right: none !important;
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+  padding: 8px 16px 16px;
+  padding: 16px;
+  border-top: 2px solid #0084fe !important;
+}
+
+
+.slider {
+  margin:0 20px;
+  overflow:"hidden";
+  padding:2rem 0;
+}
+
+.slider img {
+  border-radius:10px;
+  height: 140px;
+    width: 100%;
+  border-radius:10px;
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: none;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background: none !important;
+}
+.react-multi-carousel-dot-list {
+  display: none !important;
+}
+.industry_slide_item{
+  background: #FFF !important;
+  border: 1px solid #F7F7F7 !important;
+  box-shadow: 0 10px 30px rgba(162,182,212,.15) !important;
+  border-radius: 10px !important;
+  margin: 10px !important;
+}
+
+.industry_slide_image::before {
+  position: absolute !important;
+  content: "" !important;
+  height: 100% !important;
+  width: 100% !important;
+  background: linear-gradient(359.41deg,rgba(30,42,74,.7) 1.95%,rgba(154,173,225,0) 137.94%) !important;
+  opacity: .7 !important;
+  border-radius: 6px !important;
+}
+
+  .industry_slide_image{
+    object-fit: cover !important;
+    object-position: right !important;
+}
+
+.tech_icon:hover {
+  /* position: relative; */
+  box-shadow: 0 2px 8px rgb(36 144 239 / 25%);
+    background: #FFF
+}
+
+ul.tech-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.tech-list li {
+  background: transparent;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  max-width: 130px;
+  min-width: 129px;
+  padding: 8px 10px;
+  flex-wrap: wrap;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+ul.tech-list li .tech-icon {
+  height: 74px !important;
+  width: 100%;
+  position: relative;
+  display: contents;
+}
+ul.tech-list li .tech-icon img{
+  max-width: 61% ;
+}
+ul.tech-list li .tech-icon .svg_img{
+  max-width: 97%;
+}
+ul.tech-list li div.tech-title {
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  font-style: normal;
+  font-weight: 500;
+  color: #192734;
+  min-width: -webkit-fill-available;
+}
+ul.tech-list li:hover {
+  /* position: relative; */
+  box-shadow: 0 2px 8px rgb(36 144 239 / 25%);
+    background: #FFF
+}
